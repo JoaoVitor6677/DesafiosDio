@@ -15,13 +15,13 @@ const etanol = 3;
 const gasolina = 5;
 const kmPorLitro = 10;
 const distanciaEmKm = 20;
-const TipoDeCombustivel = (etanol);
+const tipoDeCombustivel = (etanol);
 
-if (TipoDeCombustivel === etanol) {
-    console.log (distanciaEmKm  * TipoDeCombustivel / kmPorLitro);
+if (tipoDeCombustivel === etanol) {
+    console.log (distanciaEmKm  * tipoDeCombustivel / kmPorLitro);
 } 
-else if (TipoDeCombustivel === gasolina) {
-    console.log (distanciaEmKm  * TipoDeCombustivel / kmPorLitro);
+else if (tipoDeCombustivel === gasolina) {
+    console.log (distanciaEmKm  * tipoDeCombustivel / kmPorLitro);
 }
  
 
