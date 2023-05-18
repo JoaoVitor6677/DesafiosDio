@@ -13,6 +13,6 @@ console.log ('Olá');
 
 const combustivel = 5.79;
 let gasto = 12;
-const km = 1580; 
+const km = 80; 
 
 console.log (km * combustivel / gasto);
